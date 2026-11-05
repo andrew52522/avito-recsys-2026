@@ -1,0 +1,23 @@
+# Competition data
+competition/
+*.parquet
+*.memmap
+*.tsv
+
+# Models, cache, logs
+experiments/cache/
+experiments/runs/
+experiments/logs/
+*.pt
+*.cbm
+*.log
+
+# Environment
+.venv/
+**/.venv/
+__pycache__/
+.ipynb_checkpoints/
+.env
+.env.*
+*.pem
+.DS_Store
